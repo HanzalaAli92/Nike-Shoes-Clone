@@ -58,7 +58,7 @@ export default function LoginPage() {
   
           {/* Terms and Privacy */}
           <div className="text-xs text-gray-500 mb-4">
-            By logging in, you agree to Nike's{" "}
+            By logging in, you agree to Nike&#39;s{" "}
             <a href="#" className="text-blue-600 hover:underline">
               Privacy Policy
             </a>{" "}
@@ -84,5 +84,4 @@ export default function LoginPage() {
         </div>
       </div>
     );
-  }
-  
+}

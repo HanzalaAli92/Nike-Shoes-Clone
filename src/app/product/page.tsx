@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useEffect, useState } from "react";
@@ -14,7 +15,6 @@ export default function ProductShow() {
   const [product, setProduct] = useState<Product[]>([]);
   const [isGenderOpen, setGenderOpen] = useState(true);
   const [isKidsOpen, setKidsOpen] = useState(true);
-  const [isPriceOpen, setPriceOpen] = useState(true);
 
   useEffect(() => {
     async function fetchProduct() {
@@ -115,6 +115,12 @@ export default function ProductShow() {
                   {product.price ? `$${product.price}` : "Price not available"}
                 </p>
               </Link>
+              <button
+                onClick={(e) => handleAddToCart(e, product)}
+                className="mt-2 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 w-full"
+              >
+                Add to Cart
+              </button>
             </div>
           ))}
         </div>

@@ -1,4 +1,4 @@
-export default {
+const orderSchema = {
     name: "order",
     type: "document",
     title: "Order",
@@ -42,7 +42,7 @@ export default {
             name: "cartItems",
             title: "Cart Items",
             type: "array",
-            of: [{ type: "reference", to : { type : "product"}}]
+            of: [{ type: "reference", to: { type: "product" } }]
         },
         {
             name: "total",
@@ -64,4 +64,6 @@ export default {
             initialValue: "pending"
         }
     ]
-}
+};
+
+export default orderSchema;

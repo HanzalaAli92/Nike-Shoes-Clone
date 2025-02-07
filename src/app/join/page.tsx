@@ -13,13 +13,13 @@ export default function JoinUs() {
               height={17}
             />
           </div>
-  
+
           {/* Title */}
           <h2 className="text-center text-xl font-bold mb-2">BECOME A NIKE MEMBER</h2>
           <p className="text-center text-sm text-gray-600 mb-6">
             Create your Nike Member profile and get first access to the very best of Nike products, inspiration, and community.
           </p>
-  
+
           {/* Email Address */}
           <div className="mb-4">
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">
@@ -32,7 +32,7 @@ export default function JoinUs() {
               className="w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:ring-black focus:border-black"
             />
           </div>
-  
+
           {/* Password */}
           <div className="mb-4">
             <label htmlFor="password" className="block text-sm font-medium text-gray-700">
@@ -45,7 +45,7 @@ export default function JoinUs() {
               className="w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:ring-black focus:border-black"
             />
           </div>
-  
+
           {/* First Name */}
           <div className="mb-4">
             <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">
@@ -58,7 +58,7 @@ export default function JoinUs() {
               className="w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:ring-black focus:border-black"
             />
           </div>
-  
+
           {/* Last Name */}
           <div className="mb-4">
             <label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
@@ -71,7 +71,7 @@ export default function JoinUs() {
               className="w-full border border-gray-300 rounded-md px-3 py-2 mt-1 focus:ring-black focus:border-black"
             />
           </div>
-  
+
           {/* Date of Birth */}
           <div className="mb-4">
             <label htmlFor="dob" className="block text-sm font-medium text-gray-700">
@@ -86,7 +86,7 @@ export default function JoinUs() {
               Get a Nike Member Reward every year on your Birthday.
             </p>
           </div>
-  
+
           {/* Country */}
           <div className="mb-4">
             <label htmlFor="country" className="block text-sm font-medium text-gray-700">
@@ -102,7 +102,7 @@ export default function JoinUs() {
               <option>Australia</option>
             </select>
           </div>
-  
+
           {/* Gender */}
           <div className="flex space-x-4 mb-4">
             <button className="w-full border border-gray-300 rounded-md py-2 hover:bg-gray-100 focus:ring-black">
@@ -112,7 +112,7 @@ export default function JoinUs() {
               Female
             </button>
           </div>
-  
+
           {/* Email Updates Checkbox */}
           <div className="mb-4">
             <label className="flex items-center text-sm text-gray-700">
@@ -120,10 +120,10 @@ export default function JoinUs() {
               Sign up for emails to get updates from Nike on products, offers, and your Member benefits.
             </label>
           </div>
-  
+
           {/* Terms and Conditions */}
           <p className="text-xs text-gray-500 mb-4">
-            By creating an account, you agree to Nike's{" "}
+            By creating an account, you agree to Nike&#39;s{" "}
             <a href="#" className="text-blue-600 hover:underline">
               Privacy Policy
             </a>{" "}
@@ -133,12 +133,12 @@ export default function JoinUs() {
             </a>
             .
           </p>
-  
+
           {/* Join Us Button */}
           <button className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800">
             JOIN US
           </button>
-  
+
           {/* Sign In Link */}
           <div className="text-center mt-4 text-sm">
             Already a Member?{" "}
@@ -149,5 +149,4 @@ export default function JoinUs() {
         </div>
       </div>
     );
-  }
-  
+}
